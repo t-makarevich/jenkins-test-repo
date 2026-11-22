@@ -4,7 +4,6 @@ public class ElementState : BaseTest
 {
     string text = "random text";
     [Test]
-    [Ignore("Ignore for test purposes")]
     public async Task ElemmentStateChecks()
     {
         await Page.GetByRole(AriaRole.Link, new() {Name = "Dynamic Controls"}).ClickAsync();
