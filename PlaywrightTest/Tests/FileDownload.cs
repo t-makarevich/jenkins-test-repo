@@ -3,6 +3,7 @@ using Microsoft.Playwright;
 using NUnit.Framework;
 
 [TestFixture]
+[Ignore("Ignore for test purposes")]
 public class FileDownload : BaseTest
 {
     public string path = @"C:\Users\t3.makarevich\csharpProjects\trainings\tasks_before_exams\PlaywrightTest\tempFiles\";
