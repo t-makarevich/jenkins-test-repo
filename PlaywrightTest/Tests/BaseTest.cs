@@ -1,8 +1,10 @@
+using Allure.NUnit;
 using Microsoft.Playwright.NUnit;
 using Microsoft.Playwright;
 using NUnit.Framework;
 
 [TestFixture]
+[AllureNUnit]
 public class BaseTest : PageTest
 {
     [SetUp]

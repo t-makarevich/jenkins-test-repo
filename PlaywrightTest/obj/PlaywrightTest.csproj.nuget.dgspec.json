@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\t3.makarevich\\csharpProjects\\jenkins\\jenkins-test-repo\\PlaywrightTest\\PlaywrightTest.csproj": {}
+    "C:\\Users\\t3.makarevich\\csharpProjects\\jenkins\\jenkins-test-repo\\PlaywrightTest\\PlaywrightTest.csproj": {}
   },
   "projects": {
-    "c:\\Users\\t3.makarevich\\csharpProjects\\jenkins\\jenkins-test-repo\\PlaywrightTest\\PlaywrightTest.csproj": {
+    "C:\\Users\\t3.makarevich\\csharpProjects\\jenkins\\jenkins-test-repo\\PlaywrightTest\\PlaywrightTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\t3.makarevich\\csharpProjects\\jenkins\\jenkins-test-repo\\PlaywrightTest\\PlaywrightTest.csproj",
+        "projectUniqueName": "C:\\Users\\t3.makarevich\\csharpProjects\\jenkins\\jenkins-test-repo\\PlaywrightTest\\PlaywrightTest.csproj",
         "projectName": "PlaywrightTest",
-        "projectPath": "c:\\Users\\t3.makarevich\\csharpProjects\\jenkins\\jenkins-test-repo\\PlaywrightTest\\PlaywrightTest.csproj",
+        "projectPath": "C:\\Users\\t3.makarevich\\csharpProjects\\jenkins\\jenkins-test-repo\\PlaywrightTest\\PlaywrightTest.csproj",
         "packagesPath": "C:\\Users\\t3.makarevich\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\t3.makarevich\\csharpProjects\\jenkins\\jenkins-test-repo\\PlaywrightTest\\obj\\",
+        "outputPath": "C:\\Users\\t3.makarevich\\csharpProjects\\jenkins\\jenkins-test-repo\\PlaywrightTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\t3.makarevich\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -46,6 +46,10 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
+            "Allure.NUnit": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.14.0, )"
